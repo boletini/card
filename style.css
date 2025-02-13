@@ -36,3 +36,48 @@ a{
     height: 30px;
 
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os cards quebrem linha se necessário */
+    gap: 20px; /* Espaçamento entre os cards */
+    justify-content: center;
+    max-width: 1200px; /* Ajusta a largura máxima */
+}
+
+.card {
+    width: 250px; /* Define uma largura fixa para os cards */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(138, 43, 226, 0.5);
+    text-align: center;
+    background: white;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.details {
+    padding: 10px;
+}
+
+.compre {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
